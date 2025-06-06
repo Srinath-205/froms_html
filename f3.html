@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Application Form</title>
+    <link rel="stylesheet" href="assests/f3.css">
+
+  
+ 
+</head>
+<body>
+
+  <h2>APPLICATION FORM</h2>
+
+  <fieldset>
+    <legend>Personal Details</legend>
+
+    <div class="form-row">
+      <label>
+        <span>Applicant's Full Name:</span>
+        <select>
+          <option>MR</option>
+          <option>Miss</option>
+        </select>
+        <input type="text">
+      </label>
+
+      <label>
+        <span>Care Of:</span>
+        <input type="radio" name="careof"> Parents
+        <input type="radio" name="careof"> Guardian
+      </label><br><br>
+    </div>
+
+    <div class="form-row">
+      <label>
+        <span>Father’s Name:</span>
+        <select><option>MR</option></select>
+        <input type="text">
+      </label>
+
+      <label>
+        <span>Mother’s Name:</span>
+        <select><option>Miss</option></select>
+        <input type="text">
+      </label>
+    </div>
+
+    <div class="form-row">
+      <label>
+        <span>Gender:</span>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Others
+      </label>
+
+      <label>
+        <span>Date of Birth:</span>
+        <input type="date">
+      </label>
+    </div>
+
+    <div class="form-row">
+      <label>
+        <span>Marital Status:</span>
+        <select><option>Select</option></select>
+      </label>
+      <label>
+        <span>Category:</span>
+        <select><option>Select</option></select>
+      </label>
+    </div>
+
+    <div class="form-row">
+      <label>
+        <span>Handicapped:</span>
+        <input type="radio" name="handi"> No
+        <input type="radio" name="handi"> Yes
+      </label>
+
+      <label>
+        <span>Ex-Serviceman:</span>
+        <input type="radio" name="ex"> No
+        <input type="radio" name="ex"> Yes
+      </label>
+    </div>
+
+    <div class="form-row">
+      <label>
+        <span>EWS:</span>
+        <input type="radio" name="ews"> No
+        <input type="radio" name="ews"> Yes
+      </label>
+
+      <label>
+        <span>Religion:</span>
+        <select><option>Select</option></select>
+      </label>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Contact Details</legend>
+    <div class="form-row">
+      <label>
+        <span>Mobile Number:</span>
+        <input type="text">
+      </label>
+      <label>
+        <span>Email ID:</span>
+        <input type="email">
+      </label>
+    </div>
+
+    <div class="form-row">
+      <label>
+        <span>Address Line 1:</span>
+        <input type="text">
+      </label>
+      <label>
+        <span>Address Line 2:</span>
+        <input type="text">
+      </label>
+    </div>
+
+    <div class="form-row">
+      <label>
+        <span>City:</span>
+        <input type="text">
+      </label>
+      <label>
+        <span>State:</span>
+        <select><option>Select</option></select>
+      </label>
+    </div>
+
+    <div class="form-row">
+      <label>
+        <span>Pin Code:</span>
+        <input type="text">
+      </label>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Language Knowledge</legend>
+
+    <div class="lang-row">
+      <label>Hindi</label>
+      <label><input type="checkbox"> Reading</label>
+      <label><input type="checkbox"> Writing</label>
+      <label><input type="checkbox"> Spoken</label>
+    </div>
+
+    <div class="lang-row">
+      <label>English</label>
+      <label><input type="checkbox"> Reading</label>
+      <label><input type="checkbox"> Writing</label>
+      <label><input type="checkbox"> Spoken</label>
+    </div>
+
+    <div class="lang-row">
+      <label>Urdu</label>
+      <label><input type="checkbox"> Reading</label>
+      <label><input type="checkbox"> Writing</label>
+      <label><input type="checkbox"> Spoken</label>
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Identification Details</legend>
+    <div class="form-row">
+      <label>
+        <span>Aadhar Card Number:</span>
+        <input type="text">
+      </label>
+      <label>
+        <span>PAN Card Number:</span>
+        <input type="text">
+      </label>
+    </div>
+    <div class="form-row">
+      <label class="file-upload">
+        <span>Upload Photo:</span>
+        <input type="file">
+      </label>
+      <label class="file-upload">
+        <span>Upload Signature:</span>
+        <input type="file">
+      </label>
+    </div>
+  </fieldset>
+
+  <div class="submit-buttons">
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </div>
+
+</body>
+</html>
